@@ -113,6 +113,8 @@ ul {
 }
 
 .music {
+    padding: 0;
+    margin-left: 4px;
     margin-top: 16px;
 }
 
