@@ -120,9 +120,17 @@ ul {
 
 .music iframe {
     height: 100px;
+    width: 500px;
     border-radius: 16px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 
+@media screen and (max-width: 767px) {
+    .music iframe {
+        height: 100px;
+        width: 300px;
+    }
+}
 
 
 
